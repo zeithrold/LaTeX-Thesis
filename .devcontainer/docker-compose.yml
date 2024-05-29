@@ -2,8 +2,7 @@ version: "3.2"
 
 services:
   vscode:
-    build: .
-    image: latexdevcontainer
+    image: zeithrold/latexdevcontainer:latest-full-zhcn
     volumes:
       - ../:/workspace
       # Docker socket to access Docker server
